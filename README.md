@@ -1,1 +1,1 @@
-# selenium_tests_example
+# repository for selenium tests
