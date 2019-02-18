@@ -4,8 +4,6 @@
     <list default="true" id="85889d37-484c-42f1-bd14-0c86ee79cea7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_send_email.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="test_send_email.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_send_email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -39,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -51,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="message.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/message.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -129,10 +127,10 @@
         <option value="$PROJECT_DIR$/model/message.py" />
         <option value="$PROJECT_DIR$/test/conftest.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
-        <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/test/test_send_email.py" />
         <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/fixture/message.py" />
+        <option value="$PROJECT_DIR$/test/test_send_email.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
       </list>
     </option>
   </component>
@@ -334,34 +332,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 07h 52m 17s.xml">
-      <configuration name="py.test in test_send_email.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 07h 53m 38s.xml">
-      <configuration name="py.test in test_send_email.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 07h 55m 47s.xml">
-      <configuration name="py.test in test_send_email.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 07h 56m 59s.xml">
-      <configuration name="py.test in test_send_email.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 08h 07m 31s.xml">
-      <configuration name="py.test in test_send_email.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 08h 08m 30s.xml">
-      <configuration name="py.test in test_send_email.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 08h 11m 53s.xml">
-      <configuration name="py.test in test_send_email.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 08h 18m 21s.xml">
-      <configuration name="py.test in test_send_email.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 08h 19m 46s.xml">
       <configuration name="py.test in test_send_email.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 08h 20m 26s.xml">
+      <configuration name="py.test in test_send_email.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 09h 43m 41s.xml">
+      <configuration name="py.test in test_send_email.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 09h 49m 35s.xml">
+      <configuration name="py.test in test_send_email.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 09h 51m 55s.xml">
+      <configuration name="py.test in test_send_email.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 09h 52m 57s.xml">
+      <configuration name="py.test in test_send_email.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 09h 54m 36s.xml">
+      <configuration name="py.test in test_send_email.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 09h 56m 01s.xml">
+      <configuration name="py.test in test_send_email.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 09h 57m 56s.xml">
+      <configuration name="py.test in test_send_email.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_send_email_py - 2019.02.18 at 10h 01m 39s.xml">
       <configuration name="py.test in test_send_email.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -376,6 +374,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25158563" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
@@ -605,20 +604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_send_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
@@ -628,9 +617,19 @@
     <entry file="file://$PROJECT_DIR$/fixture/message.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

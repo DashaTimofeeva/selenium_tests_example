@@ -14,6 +14,5 @@ parameters = [
 
 @pytest.mark.parametrize('addressee, theme, body', parameters)
 def test_send_message(app, addressee, theme, body):
-    app.session.login(login="dariatimofeevatest@gmail.com", password="Bl@Sl56Er23!!7")
     app.message.create(Message(addressee, theme, body))
     app.session.logout()
