@@ -1,0 +1,4 @@
+selenium==3.12.0
+pytest==3.7.1
+faker==0.8.15
+allure-pytest==2.3.4b1
