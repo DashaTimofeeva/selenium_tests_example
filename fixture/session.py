@@ -1,3 +1,4 @@
+from selenium.webdriver.common.keys import Keys
 
 
 class SessionHelper:
@@ -23,3 +24,4 @@ class SessionHelper:
         driver = self.app.driver
         driver.find_element_by_xpath("//header[@id='gb']/div[2]/div[3]/div/div[2]/div/a/span").click()
         driver.find_element_by_id("gb_71").click()
+
