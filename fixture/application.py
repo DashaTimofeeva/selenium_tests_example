@@ -1,30 +1,21 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+from fixture.session import SessionHelper
+
 
 class Application:
 
     def __init__(self):
         self.driver = webdriver.Chrome('/Users/dasha/GitHub/selenium_tests_example/chromedriver')
         self.driver.implicitly_wait(30)
+        self.session = SessionHelper(self)
 
     def open_home_page(self):
         driver = self.driver
         driver.get("https://mail.google.com/")
 
-    def login(self, login, password):
-        driver = self.driver
-        self.open_home_page()
-        # enter login
-        driver.find_element_by_id("identifierId").click()
-        driver.find_element_by_id("identifierId").clear()
-        driver.find_element_by_id("identifierId").send_keys(login)
-        driver.find_element_by_id("identifierId").send_keys(Keys.ENTER)
-        # enter password
-        driver.find_element_by_name("password").clear()
-        driver.find_element_by_name("password").send_keys(password)
-        driver.find_element_by_name("password").send_keys(Keys.ENTER)
-        driver.implicitly_wait(15)
+
 
     def create_message(self, message):
         driver = self.driver
@@ -43,10 +34,7 @@ class Application:
         # click send
         driver.find_element_by_xpath("//div[text()='Send']").send_keys(Keys.ENTER)
 
-    def logout(self):
-        driver = self.driver
-        driver.find_element_by_xpath("//header[@id='gb']/div[2]/div[3]/div/div[2]/div/a/span").click()
-        driver.find_element_by_id("gb_71").click()
+
 
     def destroy(self):
         self.driver.quit()
