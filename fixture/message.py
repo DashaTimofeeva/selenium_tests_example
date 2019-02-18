@@ -1,3 +1,4 @@
+import time
 from selenium.webdriver.common.keys import Keys
 
 
@@ -9,7 +10,7 @@ class MessageHelper:
     def create(self, message):
         driver = self.app.driver
         # click to compose button
-        driver.find_element_by_xpath('//*[@id=":3t"]/div/div').click()
+        driver.find_element_by_xpath("//div[text()='Compose']").click()
         # enter addressee
         driver.find_element_by_name("to").click()
         driver.find_element_by_name("to").clear()
@@ -20,6 +21,6 @@ class MessageHelper:
         # enter message body
         driver.find_element_by_css_selector("div[aria-label='Message Body']").click()
         driver.find_element_by_css_selector("div[aria-label='Message Body']").send_keys(message.body)
+        time.sleep(3)
         # click send
         driver.find_element_by_xpath("//div[text()='Send']").send_keys(Keys.ENTER)
-
