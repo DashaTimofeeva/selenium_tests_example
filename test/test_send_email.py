@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import pytest
-from model.message import Message
+from test.model.message import Message
 from faker import Faker
 
 fake = Faker()

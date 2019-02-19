@@ -1,6 +1,6 @@
 from selenium import webdriver
-from fixture.message import MessageHelper
-from fixture.session import SessionHelper
+from test.helpers.message import MessageHelper
+from test.helpers.session import SessionHelper
 
 
 class Application:

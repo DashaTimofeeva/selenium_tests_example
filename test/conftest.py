@@ -1,5 +1,5 @@
 import pytest
-from fixture.application import Application
+from test.helpers.application import Application
 
 LOGIN = "dariatimofeevatest@gmail.com"
 PASSWORD = "Bl@Sl56Er23!!7"
